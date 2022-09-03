@@ -1,0 +1,104 @@
+header {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+header>img {
+    margin-bottom: 25px;
+}
+
+header>a {
+    margin-bottom: 20px;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+
+* {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: red;
+}
+
+.top-container {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.top-container>img,
+.top-container>div {
+    display: flex;
+    width: 20%;
+}
+
+.center-h1 {
+    text-align: center;
+}
+
+.row-box {
+    margin-bottom: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.center-img {
+    display: flex;
+    width: 40%;
+}
+
+header {
+    position: fixed;
+    z-index: 1;
+    display: block;
+    width: 20vw;
+    left: 0;
+    top: 0;
+    overflow-x: hidden;
+    height: 100vh;
+    background: rgba(104, 237, 258, 1)
+}
+
+.body-section {
+    flex-grow: 1;
+    flex-direction: column;
+    display: block;
+    padding: 50px;
+    margin-left: 20vw;
+    min-height: 100vh;
+    ;
+    background: linear-gradient(118deg, rgba(217, 104, 200, 1) 30%, rgba(0, 196, 255, 1) 82%);
+}
+
+.awful-btn {
+    background: gray;
+    padding: 10px 20px;
+    margin: 5px;
+    color: white;
+}
+
+.csc496 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+
+.btn-container {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.btn-container.reverse {
+    flex-direction: row-reverse;
+}
